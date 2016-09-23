@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{18B5F7CE-95FC-48C0-843C-7D2B2DA4EF29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trurl.Client", "Trurl.Client\Trurl.Client.csproj", "{EF909196-A056-430C-BE69-1D947687405B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{D5E0AE05-7514-4C1A-A455-04BC6D248551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trurl.Plugins", "Trurl.Plugins\Trurl.Plugins.csproj", "{729C0713-C79C-4961-B02A-4576503753ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trurl.Plugins.OctopusDeploy", "Trurl.Plugins.OctopusDeploy\Trurl.Plugins.OctopusDeploy.csproj", "{D24D416F-A451-4B66-B257-2D523FBC8BEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{BAD744A6-AE65-42C8-A091-0094AA969D01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trurl.Configuration", "Trurl.Configuration\Trurl.Configuration.csproj", "{DB2632B1-D210-4D9B-BE16-0012C327A756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trurl.Plugins.Weather", "Trurl.Plugins.Weather\Trurl.Plugins.Weather.csproj", "{8F0D4BD1-45B3-45CC-8EAF-9C8561AECFDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trurl.Plugins.Ping", "Trurl.Plugins.Ping\Trurl.Plugins.Ping.csproj", "{D5A226EF-0B48-4B2B-A9F7-6E16142E851D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF909196-A056-430C-BE69-1D947687405B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF909196-A056-430C-BE69-1D947687405B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF909196-A056-430C-BE69-1D947687405B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF909196-A056-430C-BE69-1D947687405B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729C0713-C79C-4961-B02A-4576503753ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729C0713-C79C-4961-B02A-4576503753ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729C0713-C79C-4961-B02A-4576503753ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729C0713-C79C-4961-B02A-4576503753ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24D416F-A451-4B66-B257-2D523FBC8BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24D416F-A451-4B66-B257-2D523FBC8BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24D416F-A451-4B66-B257-2D523FBC8BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24D416F-A451-4B66-B257-2D523FBC8BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2632B1-D210-4D9B-BE16-0012C327A756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2632B1-D210-4D9B-BE16-0012C327A756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2632B1-D210-4D9B-BE16-0012C327A756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2632B1-D210-4D9B-BE16-0012C327A756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0D4BD1-45B3-45CC-8EAF-9C8561AECFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0D4BD1-45B3-45CC-8EAF-9C8561AECFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0D4BD1-45B3-45CC-8EAF-9C8561AECFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0D4BD1-45B3-45CC-8EAF-9C8561AECFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A226EF-0B48-4B2B-A9F7-6E16142E851D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A226EF-0B48-4B2B-A9F7-6E16142E851D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A226EF-0B48-4B2B-A9F7-6E16142E851D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A226EF-0B48-4B2B-A9F7-6E16142E851D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF909196-A056-430C-BE69-1D947687405B} = {18B5F7CE-95FC-48C0-843C-7D2B2DA4EF29}
+		{729C0713-C79C-4961-B02A-4576503753ED} = {D5E0AE05-7514-4C1A-A455-04BC6D248551}
+		{D24D416F-A451-4B66-B257-2D523FBC8BEE} = {D5E0AE05-7514-4C1A-A455-04BC6D248551}
+		{DB2632B1-D210-4D9B-BE16-0012C327A756} = {BAD744A6-AE65-42C8-A091-0094AA969D01}
+		{8F0D4BD1-45B3-45CC-8EAF-9C8561AECFDB} = {D5E0AE05-7514-4C1A-A455-04BC6D248551}
+		{D5A226EF-0B48-4B2B-A9F7-6E16142E851D} = {D5E0AE05-7514-4C1A-A455-04BC6D248551}
+	EndGlobalSection
+EndGlobal
