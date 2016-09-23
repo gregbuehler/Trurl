@@ -53,7 +53,7 @@ namespace Trurl.Plugins.OctopusDeploy
                 return new CommandResult()
                 {
                     Status = Status.Ok,
-                    Message = $"{project}@{version} created! { _server }{result.Link("Web")}"
+                    Message = $"{ _server }{result.Link("Web")}\n{project}@{version} created!"
                 };
             }
             catch (Exception e)
@@ -85,7 +85,7 @@ namespace Trurl.Plugins.OctopusDeploy
                 return new CommandResult()
                 {
                     Status = Status.Ok,
-                    Message = $"Created deployment of {p.Name}@{r.Version} to {e.Name}. { _server }{ result.Link("Web") }"
+                    Message = $"{ _server }{ result.Link("Web") }\nCreated deployment of {p.Name}@{r.Version} to {e.Name}."
                 };
             }
             catch (Exception e)
